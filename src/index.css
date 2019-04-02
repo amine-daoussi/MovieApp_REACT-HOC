@@ -31,6 +31,19 @@ body {
 
 
 /*card*/
+.Allcard{
+display:flex;
+flex-direction:column;
+}
+.delete{
+  /* margin-top:-15px;
+  margin-left:20px; */
+  width:150px;
+  background-color:black;
+  color:white;
+  font-weight: bold;
+  cursor: pointer;
+}
 .movieCard{
   display:flex;
   flex-direction:column;
@@ -47,8 +60,10 @@ body {
   align-self: center;
 }
 .rating{
+  display:flex;
   align-self: flex-end;
 }
+
 .starsClick{
   cursor: pointer;
 }
